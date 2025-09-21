@@ -1,0 +1,1009 @@
+{
+	"animation": {
+		"clips": {
+			"10cd283c4ce54c8893543c77a013bbcf": {
+				"id": "10cd283c4ce54c8893543c77a013bbcf",
+				"length": 0,
+				"lengthType": "auto",
+				"name": "Visible",
+				"order": "a2",
+				"scriptName": "Visible",
+				"tracks": {
+				},
+				"type": "state"
+			},
+			"b474239eb82f41b3bb7aa5f5ab7382fe": {
+				"id": "b474239eb82f41b3bb7aa5f5ab7382fe",
+				"length": 0,
+				"lengthType": "auto",
+				"name": "Hidden",
+				"order": "a3",
+				"scriptName": "Hidden",
+				"tracks": {
+				},
+				"type": "state"
+			},
+			"b7cd899576524ad0842f7ac8392a84a9": {
+				"id": "b7cd899576524ad0842f7ac8392a84a9",
+				"length": 0,
+				"lengthType": "auto",
+				"name": "Placement",
+				"order": "a6",
+				"scriptName": "Placement",
+				"tracks": {
+				},
+				"type": "state"
+			},
+			"d3581a8ea93e454fb1c2719cf440642f": {
+				"id": "d3581a8ea93e454fb1c2719cf440642f",
+				"length": 0,
+				"lengthType": "expand",
+				"name": "LookAtLocation1",
+				"order": "a8",
+				"scriptName": "LookAtLocation1",
+				"tracks": {
+					"c0b0d081e6e04798aeeeff83540b2880": {
+						"blend": "overlay",
+						"entityID": "18f9b4c6df80498ca8c375ee3920f947",
+						"id": "c0b0d081e6e04798aeeeff83540b2880",
+						"keyframes": {
+							"0beb5046a5ea4bdc95c121b94c22c3f5": {
+								"id": "0beb5046a5ea4bdc95c121b94c22c3f5",
+								"t": 0,
+								"v": "bee3a74507974280964f22bbaa6e1039"
+							}
+						},
+						"order": "a0",
+						"property": [
+							"target"
+						],
+						"type": "property",
+						"weight": {
+						}
+					},
+					"e19829ff8f5b41318608ebdc4bdb688f": {
+						"blend": "overlay",
+						"entityID": "18f9b4c6df80498ca8c375ee3920f947",
+						"id": "e19829ff8f5b41318608ebdc4bdb688f",
+						"keyframes": {
+							"55711700535b42869eabd5ac0c5298b6": {
+								"id": "55711700535b42869eabd5ac0c5298b6",
+								"t": 0,
+								"v": true
+							}
+						},
+						"order": "Zz",
+						"property": [
+							"visible"
+						],
+						"type": "property",
+						"weight": {
+						}
+					}
+				},
+				"type": "state"
+			},
+			"d852f6c7e54a4d8681a636acd3c8874a": {
+				"id": "d852f6c7e54a4d8681a636acd3c8874a",
+				"length": 0,
+				"lengthType": "expand",
+				"name": "LookAtLocation2",
+				"order": "a9",
+				"scriptName": "LookAtLocation2",
+				"tracks": {
+					"03e7429887c04e55af3818ffab73ec90": {
+						"blend": "overlay",
+						"entityID": "18f9b4c6df80498ca8c375ee3920f947",
+						"id": "03e7429887c04e55af3818ffab73ec90",
+						"keyframes": {
+							"b2f5f1ae73964721b14f798c86a53f57": {
+								"id": "b2f5f1ae73964721b14f798c86a53f57",
+								"t": 0,
+								"v": true
+							}
+						},
+						"order": "Zz",
+						"property": [
+							"visible"
+						],
+						"type": "property",
+						"weight": {
+						}
+					},
+					"6fa5013357554031b78156b7a4a10bf9": {
+						"blend": "overlay",
+						"entityID": "18f9b4c6df80498ca8c375ee3920f947",
+						"id": "6fa5013357554031b78156b7a4a10bf9",
+						"keyframes": {
+							"5da661a3f7f94db29a8aa925ed0aa5fc": {
+								"id": "5da661a3f7f94db29a8aa925ed0aa5fc",
+								"t": 0,
+								"v": "f71dcb66c6a246cfa694e1ae2c49c28d"
+							}
+						},
+						"order": "a0",
+						"property": [
+							"target"
+						],
+						"type": "property",
+						"weight": {
+						}
+					}
+				},
+				"type": "state"
+			},
+			"e22b1377ce1b430db30ee1afdd49dbc0": {
+				"id": "e22b1377ce1b430db30ee1afdd49dbc0",
+				"length": 0,
+				"lengthType": "auto",
+				"name": "Tracking",
+				"order": "a5",
+				"scriptName": "Tracking",
+				"tracks": {
+				},
+				"type": "state"
+			},
+			"f4a001808ae44053a967b27b17fa4b95": {
+				"defaultFadeParameters": {
+				},
+				"id": "f4a001808ae44053a967b27b17fa4b95",
+				"length": 3995,
+				"lengthType": "manual",
+				"name": "Initializing",
+				"order": "a7",
+				"scriptName": "Initializing",
+				"tracks": {
+				},
+				"type": "timeline"
+			}
+		},
+		"curves": {
+		},
+		"layers": {
+			"1961b7d111d04dac8ca20bb1588ea24d": {
+				"clips": {
+					"cc644e6e46be4ce88381456c366eb22c": {
+						"clipId": "d3581a8ea93e454fb1c2719cf440642f",
+						"id": "cc644e6e46be4ce88381456c366eb22c",
+						"order": "a2",
+						"scriptName": "LookAtLocation10"
+					},
+					"d46d61b3f93a49a295be4ec8eab459ef": {
+						"clipId": "d852f6c7e54a4d8681a636acd3c8874a",
+						"id": "d46d61b3f93a49a295be4ec8eab459ef",
+						"order": "a3",
+						"scriptName": "LookAtLocation20"
+					}
+				},
+				"defaultClip": null,
+				"defaultFadeParameters": {
+					"easing": "ease",
+					"pin": 0,
+					"time": 300
+				},
+				"enabled": true,
+				"id": "1961b7d111d04dac8ca20bb1588ea24d",
+				"name": "Switch Location",
+				"order": "a2",
+				"scriptName": "Switch_Location"
+			}
+		}
+	},
+	"behaviors": {
+		"bf9f2ec85210472eb3f215e712ee0ca6": {
+			"id": "bf9f2ec85210472eb3f215e712ee0ca6",
+			"label": "ActivateState",
+			"parent": {
+				"id": "2c070c04bd124289a4ecb0f260f0df2a",
+				"order": "a0",
+				"scriptName": "ActivateState"
+			},
+			"type": "@zcomponent/core/lib/behaviors/ActivateState#ActivateState"
+		},
+		"e3e82fcc198a47458b3c9985ba6c72ab": {
+			"id": "e3e82fcc198a47458b3c9985ba6c72ab",
+			"label": "ActivateState",
+			"parent": {
+				"id": "cc58d8d380db48808e7bcf962b9508ff",
+				"order": "a0",
+				"scriptName": "ActivateState"
+			},
+			"type": "@zcomponent/core/lib/behaviors/ActivateState#ActivateState"
+		}
+	},
+	"constructorProps": {
+	},
+	"entitiesByLabel": {
+		"CameraEnvironmentMap": {
+			"8aceca5f56f54ae298054c8773fa5d2e": true
+		},
+		"CameraTransform": {
+			"8bfba31843934d0f9486a92ba6a8cab5": true
+		},
+		"DefaultCookieConsent": {
+			"0ba8e27369df45ca897731dcb1e39bcf": true
+		},
+		"DefaultLoader": {
+			"52148d8eafe3426085e700e049662c07": true
+		},
+		"Defaults": {
+			"7b6fb4d895774174b5d151eec86b704c": true
+		},
+		"DirectionalLight": {
+			"857f9901b65b42c89a3ff04470d70738": true
+		},
+		"FooterContainer": {
+			"0d3391a5b2304e93aefabd0d5f77b041": true
+		},
+		"Group": {
+			"root": true
+		},
+		"H2": {
+			"7efcd4a23a134cea9729683e544e3214": true
+		},
+		"H3": {
+			"8161368d62d04aa8b12ceb24ab8d0622": true
+		},
+		"HTML": {
+			"3b485e2a81d0472daef4a92bec95f419": true
+		},
+		"Img": {
+			"b41b557e3b6e4b58833a0b21dc637ad0": true
+		},
+		"Img 2": {
+			"07d7505828034987bdc442395ad7364d": true
+		},
+		"ImmersalAnchorGroup": {
+			"cdbd499046634ddba6495035f6872d05": true
+		},
+		"Location 1": {
+			"2c070c04bd124289a4ecb0f260f0df2a": true
+		},
+		"Location 2": {
+			"cc58d8d380db48808e7bcf962b9508ff": true
+		},
+		"LookAtNode": {
+			"18f9b4c6df80498ca8c375ee3920f947": true
+		},
+		"ShadowPlane": {
+			"26855c66e5484b449401ca65edab4860": true
+		},
+		"TargetLocation1": {
+			"bee3a74507974280964f22bbaa6e1039": true
+		},
+		"TargetLocation2": {
+			"f71dcb66c6a246cfa694e1ae2c49c28d": true
+		},
+		"WorldTracker": {
+			"43661c8d3ef04ff19efbafeb72bb229b": true
+		},
+		"WorldTrackingUI": {
+			"73b9420a21f742ec908c3abf9df3f40a": true
+		},
+		"ZapparCamera": {
+			"d056c264c3d345908a1345aeb612ed9d": true
+		},
+		"arrow_01.glb": {
+			"e1dcde21a88c4b1e9565b92a5f7d33e8": true
+		},
+		"styles.css": {
+			"ed1b7a776656455da86d804db7798339": true
+		}
+	},
+	"entitiesByScriptName": {
+		"CameraEnvironmentMap": {
+			"8aceca5f56f54ae298054c8773fa5d2e": true
+		},
+		"CameraTransform": {
+			"8bfba31843934d0f9486a92ba6a8cab5": true
+		},
+		"DefaultCookieConsent": {
+			"0ba8e27369df45ca897731dcb1e39bcf": true
+		},
+		"DefaultLoader": {
+			"52148d8eafe3426085e700e049662c07": true
+		},
+		"Defaults": {
+			"7b6fb4d895774174b5d151eec86b704c": true
+		},
+		"DirectionalLight": {
+			"857f9901b65b42c89a3ff04470d70738": true
+		},
+		"FooterContainer": {
+			"0d3391a5b2304e93aefabd0d5f77b041": true
+		},
+		"H2": {
+			"7efcd4a23a134cea9729683e544e3214": true
+		},
+		"H20": {
+			"8161368d62d04aa8b12ceb24ab8d0622": true
+		},
+		"HTML": {
+			"3b485e2a81d0472daef4a92bec95f419": true
+		},
+		"Img": {
+			"b41b557e3b6e4b58833a0b21dc637ad0": true
+		},
+		"Img_2": {
+			"07d7505828034987bdc442395ad7364d": true
+		},
+		"ImmersalAnchorGroup": {
+			"cdbd499046634ddba6495035f6872d05": true
+		},
+		"Location_1": {
+			"2c070c04bd124289a4ecb0f260f0df2a": true
+		},
+		"Location_10": {
+			"cc58d8d380db48808e7bcf962b9508ff": true
+		},
+		"LookAtNode": {
+			"18f9b4c6df80498ca8c375ee3920f947": true
+		},
+		"ShadowPlane": {
+			"26855c66e5484b449401ca65edab4860": true
+		},
+		"TargetLocation1": {
+			"bee3a74507974280964f22bbaa6e1039": true
+		},
+		"TargetLocation10": {
+			"f71dcb66c6a246cfa694e1ae2c49c28d": true
+		},
+		"WorldTracker": {
+			"43661c8d3ef04ff19efbafeb72bb229b": true
+		},
+		"WorldTrackingUI": {
+			"73b9420a21f742ec908c3abf9df3f40a": true
+		},
+		"ZapparCamera": {
+			"d056c264c3d345908a1345aeb612ed9d": true
+		},
+		"arrow_01_glb": {
+			"e1dcde21a88c4b1e9565b92a5f7d33e8": true
+		},
+		"styles_css": {
+			"ed1b7a776656455da86d804db7798339": true
+		}
+	},
+	"entityConstructorProps": {
+		"07d7505828034987bdc442395ad7364d": {
+		},
+		"0ba8e27369df45ca897731dcb1e39bcf": {
+		},
+		"0d3391a5b2304e93aefabd0d5f77b041": {
+		},
+		"18f9b4c6df80498ca8c375ee3920f947": {
+		},
+		"26855c66e5484b449401ca65edab4860": {
+		},
+		"2c070c04bd124289a4ecb0f260f0df2a": {
+		},
+		"3b485e2a81d0472daef4a92bec95f419": {
+		},
+		"43661c8d3ef04ff19efbafeb72bb229b": {
+		},
+		"52148d8eafe3426085e700e049662c07": {
+		},
+		"73b9420a21f742ec908c3abf9df3f40a": {
+		},
+		"7b6fb4d895774174b5d151eec86b704c": {
+		},
+		"7efcd4a23a134cea9729683e544e3214": {
+		},
+		"8161368d62d04aa8b12ceb24ab8d0622": {
+		},
+		"857f9901b65b42c89a3ff04470d70738": {
+		},
+		"8aceca5f56f54ae298054c8773fa5d2e": {
+		},
+		"8bfba31843934d0f9486a92ba6a8cab5": {
+		},
+		"b41b557e3b6e4b58833a0b21dc637ad0": {
+		},
+		"bee3a74507974280964f22bbaa6e1039": {
+		},
+		"bf9f2ec85210472eb3f215e712ee0ca6": {
+			"event": "onClick"
+		},
+		"cc58d8d380db48808e7bcf962b9508ff": {
+		},
+		"cdbd499046634ddba6495035f6872d05": {
+		},
+		"d056c264c3d345908a1345aeb612ed9d": {
+			"activateAtStart": true,
+			"profile": "high"
+		},
+		"e1dcde21a88c4b1e9565b92a5f7d33e8": {
+			"source": "file://./arrow_01.glb"
+		},
+		"e3e82fcc198a47458b3c9985ba6c72ab": {
+			"event": "onClick"
+		},
+		"ed1b7a776656455da86d804db7798339": {
+			"source": "file://./styles.css"
+		},
+		"f71dcb66c6a246cfa694e1ae2c49c28d": {
+		}
+	},
+	"entityPropOverrides": {
+		"componentprop:prop:root:position": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"position"
+			],
+			"id": "componentprop:prop:root:position",
+			"isConstructorProp": false,
+			"propName": "position",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:rotation": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"rotation"
+			],
+			"id": "componentprop:prop:root:rotation",
+			"isConstructorProp": false,
+			"propName": "rotation",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:scale": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"scale"
+			],
+			"id": "componentprop:prop:root:scale",
+			"isConstructorProp": false,
+			"propName": "scale",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:visible": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"visible"
+			],
+			"id": "componentprop:prop:root:visible",
+			"isConstructorProp": false,
+			"propName": "visible",
+			"type": "componentprop"
+		}
+	},
+	"entityProps": {
+		"07d7505828034987bdc442395ad7364d": {
+			"classList": [
+				"img"
+			],
+			"id": ""
+		},
+		"0ba8e27369df45ca897731dcb1e39bcf": {
+		},
+		"0d3391a5b2304e93aefabd0d5f77b041": {
+			"classList": [
+				"footerContainer"
+			],
+			"display": "flex",
+			"width": [
+				100,
+				"vw"
+			]
+		},
+		"18f9b4c6df80498ca8c375ee3920f947": {
+			"visible": false
+		},
+		"26855c66e5484b449401ca65edab4860": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				1,
+				1.0130759468164008,
+				1
+			]
+		},
+		"2c070c04bd124289a4ecb0f260f0df2a": {
+			"classList": [
+				"footerItem"
+			],
+			"display": "inline-block",
+			"width": [
+				20,
+				"vw"
+			]
+		},
+		"3b485e2a81d0472daef4a92bec95f419": {
+			"verticalAnchor": "bottom"
+		},
+		"43661c8d3ef04ff19efbafeb72bb229b": {
+		},
+		"52148d8eafe3426085e700e049662c07": {
+		},
+		"73b9420a21f742ec908c3abf9df3f40a": {
+			"preview": "tracking"
+		},
+		"7b6fb4d895774174b5d151eec86b704c": {
+		},
+		"7efcd4a23a134cea9729683e544e3214": {
+			"classList": [
+				"text"
+			],
+			"innerText": "Location 1"
+		},
+		"8161368d62d04aa8b12ceb24ab8d0622": {
+			"classList": [
+				"text"
+			],
+			"innerText": "Location 2"
+		},
+		"857f9901b65b42c89a3ff04470d70738": {
+			"castShadow": true,
+			"position": [
+				0,
+				3.822578351542651,
+				0
+			]
+		},
+		"8aceca5f56f54ae298054c8773fa5d2e": {
+		},
+		"8bfba31843934d0f9486a92ba6a8cab5": {
+		},
+		"b41b557e3b6e4b58833a0b21dc637ad0": {
+			"classList": [
+				"img"
+			]
+		},
+		"bee3a74507974280964f22bbaa6e1039": {
+			"position": [
+				0.7396981390314115,
+				0,
+				8.657652186214708
+			],
+			"visible": false
+		},
+		"bf9f2ec85210472eb3f215e712ee0ca6": {
+			"state": "cc644e6e46be4ce88381456c366eb22c"
+		},
+		"cc58d8d380db48808e7bcf962b9508ff": {
+			"classList": [
+				"footerItem"
+			],
+			"display": "inline-block",
+			"width": [
+				20,
+				"vw"
+			]
+		},
+		"cdbd499046634ddba6495035f6872d05": {
+		},
+		"d056c264c3d345908a1345aeb612ed9d": {
+		},
+		"e1dcde21a88c4b1e9565b92a5f7d33e8": {
+			"rotation": [
+				1.5707963267948966,
+				0,
+				0
+			]
+		},
+		"e3e82fcc198a47458b3c9985ba6c72ab": {
+			"state": "d46d61b3f93a49a295be4ec8eab459ef"
+		},
+		"ed1b7a776656455da86d804db7798339": {
+		},
+		"f71dcb66c6a246cfa694e1ae2c49c28d": {
+			"position": [
+				3.1683089487860014,
+				0,
+				-10.636528758427012
+			],
+			"visible": false
+		},
+		"root": {
+			"position": [
+				-1.7761028621592283,
+				0,
+				0
+			]
+		}
+	},
+	"id": "5d4513e843574c04847bf1474912090f",
+	"nodes": {
+		"07d7505828034987bdc442395ad7364d": {
+			"id": "07d7505828034987bdc442395ad7364d",
+			"label": "Img 2",
+			"parent": {
+				"id": "cc58d8d380db48808e7bcf962b9508ff",
+				"order": "a0"
+			},
+			"scriptName": "Img_2",
+			"type": "@zcomponent/html/lib/img#Img"
+		},
+		"0ba8e27369df45ca897731dcb1e39bcf": {
+			"id": "0ba8e27369df45ca897731dcb1e39bcf",
+			"label": "DefaultCookieConsent",
+			"parent": {
+				"id": "7b6fb4d895774174b5d151eec86b704c",
+				"order": "a4"
+			},
+			"scriptName": "DefaultCookieConsent",
+			"type": "@zcomponent/core/lib/components/DefaultCookieConsent#DefaultCookieConsent"
+		},
+		"0d3391a5b2304e93aefabd0d5f77b041": {
+			"id": "0d3391a5b2304e93aefabd0d5f77b041",
+			"label": "FooterContainer",
+			"parent": {
+				"id": "3b485e2a81d0472daef4a92bec95f419",
+				"order": "a1"
+			},
+			"scriptName": "FooterContainer",
+			"type": "@zcomponent/html/lib/div#Div"
+		},
+		"18f9b4c6df80498ca8c375ee3920f947": {
+			"id": "18f9b4c6df80498ca8c375ee3920f947",
+			"label": "LookAtNode",
+			"parent": {
+				"id": "8bfba31843934d0f9486a92ba6a8cab5",
+				"order": "a0"
+			},
+			"scriptName": "LookAtNode",
+			"type": "@zcomponent/three/lib/components/transforms/LookAtNode#LookAtNode"
+		},
+		"26855c66e5484b449401ca65edab4860": {
+			"id": "26855c66e5484b449401ca65edab4860",
+			"label": "ShadowPlane",
+			"locked": true,
+			"parent": {
+				"id": "cdbd499046634ddba6495035f6872d05",
+				"order": "a0"
+			},
+			"scriptName": "ShadowPlane",
+			"type": "@zcomponent/three/lib/components/meshes/ShadowPlane#ShadowPlane"
+		},
+		"2c070c04bd124289a4ecb0f260f0df2a": {
+			"id": "2c070c04bd124289a4ecb0f260f0df2a",
+			"label": "Location 1",
+			"parent": {
+				"id": "0d3391a5b2304e93aefabd0d5f77b041",
+				"order": "a0"
+			},
+			"scriptName": "Location_1",
+			"type": "@zcomponent/html/lib/div#Div"
+		},
+		"3b485e2a81d0472daef4a92bec95f419": {
+			"id": "3b485e2a81d0472daef4a92bec95f419",
+			"label": "HTML",
+			"parent": {
+				"id": "root",
+				"order": "a6"
+			},
+			"scriptName": "HTML",
+			"type": "@zcomponent/three/lib/components/HTML#HTML"
+		},
+		"43661c8d3ef04ff19efbafeb72bb229b": {
+			"id": "43661c8d3ef04ff19efbafeb72bb229b",
+			"label": "WorldTracker",
+			"parent": {
+				"id": "root",
+				"order": "ZX"
+			},
+			"scriptName": "WorldTracker",
+			"type": "@zcomponent/zappar-three/lib/components/trackers/WorldTracker#WorldTracker"
+		},
+		"52148d8eafe3426085e700e049662c07": {
+			"id": "52148d8eafe3426085e700e049662c07",
+			"label": "DefaultLoader",
+			"parent": {
+				"id": "7b6fb4d895774174b5d151eec86b704c",
+				"order": "Zp"
+			},
+			"scriptName": "DefaultLoader",
+			"type": "@zcomponent/core/lib/components/DefaultLoader#DefaultLoader"
+		},
+		"73b9420a21f742ec908c3abf9df3f40a": {
+			"id": "73b9420a21f742ec908c3abf9df3f40a",
+			"label": "WorldTrackingUI",
+			"parent": {
+				"id": "43661c8d3ef04ff19efbafeb72bb229b",
+				"order": "a1"
+			},
+			"scriptName": "WorldTrackingUI",
+			"type": "@zcomponent/zappar-three/lib/components/WorldTrackingUI#WorldTrackingUI"
+		},
+		"7b6fb4d895774174b5d151eec86b704c": {
+			"id": "7b6fb4d895774174b5d151eec86b704c",
+			"label": "Defaults",
+			"parent": {
+				"id": "root",
+				"order": "a0"
+			},
+			"scriptName": "Defaults",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
+		"7efcd4a23a134cea9729683e544e3214": {
+			"id": "7efcd4a23a134cea9729683e544e3214",
+			"label": "H2",
+			"parent": {
+				"id": "2c070c04bd124289a4ecb0f260f0df2a",
+				"order": "a1"
+			},
+			"scriptName": "H2",
+			"type": "@zcomponent/html/lib/headings#H2"
+		},
+		"8161368d62d04aa8b12ceb24ab8d0622": {
+			"id": "8161368d62d04aa8b12ceb24ab8d0622",
+			"label": "H3",
+			"parent": {
+				"id": "cc58d8d380db48808e7bcf962b9508ff",
+				"order": "a1"
+			},
+			"scriptName": "H20",
+			"type": "@zcomponent/html/lib/headings#H2"
+		},
+		"857f9901b65b42c89a3ff04470d70738": {
+			"id": "857f9901b65b42c89a3ff04470d70738",
+			"label": "DirectionalLight",
+			"parent": {
+				"id": "cdbd499046634ddba6495035f6872d05",
+				"order": "a1"
+			},
+			"scriptName": "DirectionalLight",
+			"type": "@zcomponent/three/lib/components/lights/DirectionalLight#DirectionalLight"
+		},
+		"8aceca5f56f54ae298054c8773fa5d2e": {
+			"id": "8aceca5f56f54ae298054c8773fa5d2e",
+			"label": "CameraEnvironmentMap",
+			"parent": {
+				"id": "root",
+				"order": "a5"
+			},
+			"scriptName": "CameraEnvironmentMap",
+			"type": "@zcomponent/zappar-three/lib/components/environments/CameraEnvironmentMap#CameraEnvironmentMap"
+		},
+		"8bfba31843934d0f9486a92ba6a8cab5": {
+			"id": "8bfba31843934d0f9486a92ba6a8cab5",
+			"label": "CameraTransform",
+			"parent": {
+				"id": "root",
+				"order": "a7"
+			},
+			"scriptName": "CameraTransform",
+			"type": "@zcomponent/three/lib/components/transforms/CameraTransform#CameraTransform"
+		},
+		"b41b557e3b6e4b58833a0b21dc637ad0": {
+			"id": "b41b557e3b6e4b58833a0b21dc637ad0",
+			"label": "Img",
+			"parent": {
+				"id": "2c070c04bd124289a4ecb0f260f0df2a",
+				"order": "a0"
+			},
+			"scriptName": "Img",
+			"type": "@zcomponent/html/lib/img#Img"
+		},
+		"bee3a74507974280964f22bbaa6e1039": {
+			"id": "bee3a74507974280964f22bbaa6e1039",
+			"label": "TargetLocation1",
+			"parent": {
+				"id": "cdbd499046634ddba6495035f6872d05",
+				"order": "a2"
+			},
+			"scriptName": "TargetLocation1",
+			"type": "@zcomponent/three/lib/components/meshes/Box#Box"
+		},
+		"cc58d8d380db48808e7bcf962b9508ff": {
+			"id": "cc58d8d380db48808e7bcf962b9508ff",
+			"label": "Location 2",
+			"parent": {
+				"id": "0d3391a5b2304e93aefabd0d5f77b041",
+				"order": "a0V"
+			},
+			"scriptName": "Location_10",
+			"type": "@zcomponent/html/lib/div#Div"
+		},
+		"cdbd499046634ddba6495035f6872d05": {
+			"id": "cdbd499046634ddba6495035f6872d05",
+			"label": "ImmersalAnchorGroup",
+			"parent": {
+				"id": "43661c8d3ef04ff19efbafeb72bb229b",
+				"order": "Zy"
+			},
+			"scriptName": "ImmersalAnchorGroup",
+			"type": "@zcomponent/immersal/lib/components/ImmersalAnchorGroup#ImmersalAnchorGroup"
+		},
+		"d056c264c3d345908a1345aeb612ed9d": {
+			"id": "d056c264c3d345908a1345aeb612ed9d",
+			"label": "ZapparCamera",
+			"parent": {
+				"id": "root",
+				"order": "ZW"
+			},
+			"scriptName": "ZapparCamera",
+			"type": "@zcomponent/zappar-three/lib/components/cameras/Camera#ZapparCamera"
+		},
+		"e1dcde21a88c4b1e9565b92a5f7d33e8": {
+			"id": "e1dcde21a88c4b1e9565b92a5f7d33e8",
+			"label": "arrow_01.glb",
+			"parent": {
+				"id": "18f9b4c6df80498ca8c375ee3920f947",
+				"order": "a0"
+			},
+			"scriptName": "arrow_01_glb",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"ed1b7a776656455da86d804db7798339": {
+			"id": "ed1b7a776656455da86d804db7798339",
+			"label": "styles.css",
+			"parent": {
+				"id": "3b485e2a81d0472daef4a92bec95f419",
+				"order": "a0"
+			},
+			"scriptName": "styles_css",
+			"type": "@zcomponent/html/lib/CSS#CSS"
+		},
+		"f71dcb66c6a246cfa694e1ae2c49c28d": {
+			"id": "f71dcb66c6a246cfa694e1ae2c49c28d",
+			"label": "TargetLocation2",
+			"parent": {
+				"id": "cdbd499046634ddba6495035f6872d05",
+				"order": "a2V"
+			},
+			"scriptName": "TargetLocation10",
+			"type": "@zcomponent/three/lib/components/meshes/Box#Box"
+		},
+		"root": {
+			"id": "root",
+			"label": "Group",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		}
+	},
+	"preview": "@zcomponent/three/lib/preview#default",
+	"propEntityOverrides": {
+		"position": {
+			"root": {
+				"position": true
+			}
+		}
+	},
+	"props": {
+		"position": {
+			"comments": [
+				"The position, in 3D space, of this node relative to its parent. The three elements of the array correspond to the `x`, `y`, and `z` components of position."
+			],
+			"default": [
+				0,
+				0,
+				0
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "position",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"rotation": {
+			"comments": [
+				"The rotation, in three dimensions, of this node relative to its parent. The three elements of the array correspond to Euler angles - yaw, pitch and roll."
+			],
+			"default": [
+				0,
+				0,
+				0
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "rotation",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"scale": {
+			"comments": [
+				"The scale, in three dimensions, of this node relative to its parent. The three elements of the array correspond to scales in the the `x`, `y`, and `z` axis."
+			],
+			"default": [
+				1,
+				1,
+				1
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "scale",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"visible": {
+			"comments": [
+				"Determines if this object and its children are rendered to the screen."
+			],
+			"default": true,
+			"group": "Appearance",
+			"groupPriority": 11,
+			"name": "visible",
+			"type": {
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "boolean"
+			}
+		}
+	},
+	"root": "root"
+}
