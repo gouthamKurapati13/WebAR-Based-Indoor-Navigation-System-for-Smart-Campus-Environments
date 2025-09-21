@@ -61,10 +61,10 @@ Testing confirmed reliable real-time localization. Directional arrows and overla
 ---
 
 ## Features
-- 🔹 Markerless localization (no QR codes/beacons)  
-- 🔹 Real-time 3D navigation cues (arrows, labels)  
-- 🔹 Cross-platform (Android & iOS browsers)  
-- 🔹 Progressive Web App (PWA) support  
-- 🔹 Scalable for campuses, malls, hospitals, and exhibitions  
+- Markerless localization (no QR codes/beacons)  
+- Real-time 3D navigation cues (arrows, labels)  
+- Cross-platform (Android & iOS browsers)  
+- Progressive Web App (PWA) support  
+- Scalable for campuses, malls, hospitals, and exhibitions  
 
 ---
